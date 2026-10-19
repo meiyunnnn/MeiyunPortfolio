@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+img{
+    border-radius: 25%;
+}
+
+#pizza_dip {
+    text-align: center ;
+    border-radius:25%;
+}
+
+.ingredients {
+    width: 50%;
+    
+}
+
+h2 {
+    text-decoration: underline;
+    text-align: center;
+    color: white;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.flex-container > div {
+    background-color: rgb(255, 220, 233);
+    border-radius: 20%;
+    margin: 10px;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#header {
+    grid-column: 1;
+    text-align: center;
+    background-color: #ffa1a1;
+    padding: 25px;
+    color: white;
+    font-size: 20px;
+}
+
+#menu h4 {
+    border: 1px solid #ffdcdc;
+    margin: 10px;
+    padding: 10px;
+}
+
+#main {
+    grid-column: 1;
+}
+
+#right {
+    grid-column: 1;
+    background-color: #ffa1a1;
+    ;
+}
+#right p {
+    color: #ffa1a1;
+}
+
+#footer {
+    grid-column: 1;
+    background-color: #ffa1a1;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 15% auto 15;
+    }
+
+    #header {
+        grid-column: 1 / span 2;
+        font-size: 24px;
+    }
+
+    #menu {
+        grid-column: 1 / span 1;
+    }
+
+    #main {
+        grid-column: 2 / span 1;
+    }
+
+    #right {
+        grid-column: 1 / span 3;
+    }
+
+    #footer {
+        grid-column: 1 / span 2;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .grid-container {
+        grid-template-columns: auto;
+    }
+
+    #header {
+        grid-column: 1 / span 3;
+        font-size: 28px;
+    }
+
+    #menu {
+        grid-column: 1 / span 1;
+    }
+
+    #main {
+        grid-column: 2 / span 1;
+    }
+
+    #right {
+        grid-column: 3 / span 1;
+    }
+
+    #footer {
+        grid-column: 1 / span 3;
+    }
+}

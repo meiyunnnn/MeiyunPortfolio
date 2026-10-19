@@ -1,0 +1,28 @@
+
+.post{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Reply{
+    font-weight: bold;
+}
+
+.Reply2{
+    font-weight: bold;
+}
+
+#topic{
+    font-size: 20px;
+    color: blue;
+}
+
+#reply1{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#reply2{
+    font-size: 16px;
+    font-weight: normal;
+}

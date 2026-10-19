@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Meiyun">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="Java.js"></script>
+  <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+  <header class="top-header">
+    <div class="TopGrid">
+      <img src="Pic/HeaderPic3.png" alt="Meiyun" class="Mhaa" />
+      <h1 class="site-title">PORTFOLIO <img src="Pic/MouseHover.png" alt="Meiyun" class="FootMhaa" /></h1>
+      <nav class="nav-links">
+        <a href="Index.html" class="nav-btn">Home</a>
+        <a href="MyWork.html" class="nav-btn">My Work</a>
+        <a href="Index.html#AboutMeText" class="nav-btn">About me</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-body">
+    <img src="Pic/MhaaBar.png" alt="MhaaBar" class="MhaaBar">
+    <h1>FISHHHHHH</h1>
+    <!-- วิดีโอ + คำอธิบาย -->
+    <div class="game-detail">
+      <!-- Steam-style Media Gallery (1 คลิป + 4 รูป) -->
+      <div class="steam-gallery" id="fishhhhhhGallery">
+        <!-- จอแสดงผลหลัก -->
+        <div class="steam-main-screen">
+          <button class="gallery-nav-btn prev-btn" aria-label="Previous">&#10094;</button>
+
+          <!-- สื่อที่ 1: วิดีโอคลิป 1 (ใส่ YouTube link ได้เลยครับ) -->
+          <div class="steam-slide active" data-type="video">
+            <iframe src="https://www.youtube.com/embed/phAAqzzBU8g" title="Fishhhhhh Clip 1" allowfullscreen></iframe>
+          </div>
+
+          <!-- สื่อที่ 2: รูปภาพ 1 (Fishhhhhh Thumb1.gif) -->
+          <div class="steam-slide" data-type="image">
+            <img src="Pic/Fishhhhhh Thumbnail.png" alt="Fishhhhhh Screenshot 1">
+          </div>
+
+          <!-- สื่อที่ 3: รูปภาพ 2 (Fishhhhhh Thumb2.gif) -->
+          <div class="steam-slide" data-type="image">
+            <img src="Pic/Fishhhhhh Thumb2.gif" alt="Fishhhhhh Screenshot 2">
+          </div>
+
+          <!-- สื่อที่ 4: รูปภาพ 3 (Fishhhhhh Thumb3.gif) -->
+          <div class="steam-slide" data-type="image">
+            <img src="Pic/Fishhhhhh Thumb3.gif" alt="Fishhhhhh Screenshot 3">
+          </div>
+
+          <!-- สื่อที่ 5: รูปภาพ 4 (Fishhhhhh Thumbnail.png) -->
+          <div class="steam-slide" data-type="image">
+            <img src="Pic/Fishhhhhh Thumb1.gif" alt="Fishhhhhh Screenshot 4">
+          </div>
+
+          <button class="gallery-nav-btn next-btn" aria-label="Next">&#10095;</button>
+        </div>
+
+        <!-- แถบ Thumbnails ด้านล่างแบบ Steam -->
+        <div class="steam-thumbs-strip">
+          <!-- Thumbnail คลิป 1 -->
+          <div class="steam-thumb active" data-index="0" title="Video 1">
+            <img src="Pic/Fishhhhhh Thumbnail.png" alt="Video 1">
+            <div class="video-play-badge">▶</div>
+          </div>
+
+          <!-- Thumbnail รูป 1 -->
+          <div class="steam-thumb" data-index="1" title="Screenshot 1">
+            <img src="Pic/Fishhhhhh Thumbnail.png" alt="Screenshot 1">
+          </div>
+
+          <!-- Thumbnail รูป 2 -->
+          <div class="steam-thumb" data-index="2" title="Screenshot 2">
+            <img src="Pic/Fishhhhhh Thumb2.gif" alt="Screenshot 2">
+          </div>
+
+          <!-- Thumbnail รูป 3 -->
+          <div class="steam-thumb" data-index="3" title="Screenshot 3">
+            <img src="Pic/Fishhhhhh Thumb3.gif" alt="Screenshot 3">
+          </div>
+
+          <!-- Thumbnail รูป 4 -->
+          <div class="steam-thumb" data-index="4" title="Screenshot 4">
+            <img src="Pic/Fishhhhhh Thumb1.gif" alt="Screenshot 4">
+          </div>
+        </div>
+      </div>
+
+      <!-- Description -->
+      <h2 class="game-desc-title">Fishhhhhh (In Development)</h2>
+      <p class="game-desc">
+        &emsp;&emsp;&emsp;&emsp;เนื้อเรื่องมีอยู่ว่า"หลังเกิดระเบิดนิวเคลียร์ โลกของเราก็ผ่านไป 248
+        ปีโลกเราก็เกิดระบบนิเวศใหม่ๆ และสภาพแวดล้อม
+        ดูเหนือจินตนาการก็ปรากฏขึ้น มีการเปลี่ยนแปลงของสิ่งมีชีวิต มนุษย์ได้ส่งหุ่นยนต์ออกสำรวจ
+        จับสิ่งมีชีวิตทางน้ำกลับไปเพื่อกลับไปวิจัย
+        แม้จะเจอกับอันตรายต่างๆ ก็ตาม เราก็ต้องทำภารกิจให้สำเร็จให้ได้"
+        <br>&emsp;&emsp;&emsp;&emsp;และนี่ก็เป็นเกม Final Project ที่พวกผมกำลังทำกันอยู่ ณ
+        ตอนนี้ก็ใกล้เสร็จแล้วแต่ยังไม่ได้อัด Game trailer
+        ออกมาให้ดูเพราะช่วงนี้ค่อนข้างยุ่งต้องจัดสรรเวลาให้ดี เพื่อไม่ให้กระทบต่อการพัฒนาเกมและการเรียน
+        โดยตอนนี้เกมพวกผมก็ได้ทำไปถึง86%แล้ว และจะทำให้เสร็จภายในเดือนตุลาคมนี้
+        และผมกำลังพยายามพัฒนามันอย่างเต็มที่และออกมาดีที่สุดเพราะพวกผมมี Plan ว่าจะอัพเกมลงใน Steam
+        เพื่อวางขายจึงอยากทำให้ดีที่สุด
+        โดยในโปรเจกต์นี้ผมมีหน้าที่เป็น
+        <br>- คนทำเอกสารโปรเจกต์
+        <br>- เป็น Modeling ตัวละคร,ปลา,สิ่งของและบอส รวมถึงการทำ Animationต่างๆภายในเกม รวมถึงการเชื่อม Animation ของ
+        Unity ภายในเกม
+        <br>- เป็นผู้ช่วย Developer ในส่วนของ การทำระบบการซ่อมเรือด้วยระบบย่อยขยะทะเลเป็น Scrap เพื่อนำไปซ่อมเรือ
+      </p>
+
+      <!-- อธิบายเพิ่มเติม (ฟ้อนเล็กกว่า) -->
+      <p class="game-detail-text">
+        <br>สิ่งที่กำลังเรียนรู้
+        <br>- การใช้โปรแกรม Blender และ การทำ Animation ก่อนมา Import เข้าเกม
+        <br>- การทำ Animation Controller ด้วย Blender(ปกติเคยทำแต่ใน Maya)
+        <br>- การใช้โปรแกรม Unity โดยเฉพาะเรื่องการเชื่อม Animation
+        <br>- การใช้โปรแกรม Git ในการทำงานร่วมในกลุ่ม
+        <br>- การจัดสรรเวลาในการทำงาน
+      </p>
+    </div>
+
+    <img src="Pic/MhaaBar.png" alt="MhaaBar" class="MhaaBar">
+    <img src="Pic/MEIYUN JOURNEY NEVER END2.png" alt="MhaaJourney" class="MhaaJourney">
+  </main>
+</body>
+
+</html>
